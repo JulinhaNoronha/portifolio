@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=DM+Sans:opsz@9..40&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F4F2DE;
+}
+
+/*Header*/
+.cabecalho {
+    padding: 1% 0 1% 15%;
+    background-color: #7C9D96;
+}
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho__menu__logo {
+    color: #FFF;
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+.cabecalho__menu__links {
+    display: flex;
+    align-items: center;
+    gap: 61px;
+    padding: 0 68px 0 0;
+}
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cabecalho__menu__link:hover {
+    color: #E9B384;
+}
+
+/*Main*/
+.tela {
+    padding: 8% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+.tela__conteudo {
+    width: 832px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.tela__conteudo__saudacao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.tela__conteudo__titulo {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    color: #E9B384;
+}
+.tela__conteudo__subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+.tela__conteudo__texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.tela__conteudo__botao {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7C9D96;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    width: 218px;
+    padding: 15px 8px;
+    border-radius: 9px;
+}
+
+.tela__image {
+    width: 461px;
+}
+
+.rodape {
+    background-color: #7C9D96;
+    color: #fff;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
